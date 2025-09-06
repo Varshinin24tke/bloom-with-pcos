@@ -8,57 +8,37 @@ const PCOSExplanation = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold font-serif text-foreground mb-6">
-            Understanding PCOS
+            PCOS Overview
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            PCOS (Polycystic Ovary Syndrome) affects 1 in 10 women of reproductive age. 
-            It's a hormonal condition that's completely manageable with the right knowledge and support.
-          </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <img 
-              src={pcosImage} 
-              alt="Understanding PCOS illustration"
-              className="w-full rounded-3xl shadow-card"
-            />
-          </div>
-          <div className="space-y-6">
-            <div className="bg-gradient-card p-6 rounded-2xl shadow-gentle">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-primary/20 rounded-full">
-                  <Zap className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-xl font-semibold text-foreground">Hormonal Balance</h3>
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-gradient-card p-8 rounded-3xl shadow-card">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <img 
+                  src={pcosImage} 
+                  alt="Understanding PCOS - supportive illustration"
+                  className="w-full rounded-2xl shadow-gentle"
+                />
               </div>
-              <p className="text-muted-foreground">
-                PCOS involves an imbalance of reproductive hormones, affecting ovulation and causing various symptoms.
-              </p>
-            </div>
-
-            <div className="bg-gradient-card p-6 rounded-2xl shadow-gentle">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-secondary/20 rounded-full">
-                  <Heart className="w-6 h-6 text-secondary" />
+              <div className="space-y-6">
+                <h3 className="text-2xl font-bold text-foreground">What is PCOS?</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  PCOS (Polycystic Ovary Syndrome) is a common hormonal condition that affects 1 in 10 women of reproductive age worldwide. 
+                  It involves an imbalance of reproductive hormones that can affect ovulation and cause various symptoms.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  While PCOS presents differently for each woman, understanding your body and working with healthcare providers 
+                  can help you manage symptoms effectively and live a fulfilling life.
+                </p>
+                <div className="flex items-center gap-3 p-4 bg-primary/10 rounded-xl">
+                  <Heart className="w-5 h-5 text-primary flex-shrink-0" />
+                  <p className="text-sm text-foreground font-medium">
+                    Early understanding and support make all the difference in managing PCOS successfully.
+                  </p>
                 </div>
-                <h3 className="text-xl font-semibold text-foreground">Multiple Symptoms</h3>
               </div>
-              <p className="text-muted-foreground">
-                Each woman experiences PCOS differently, with symptoms ranging from irregular periods to metabolic changes.
-              </p>
-            </div>
-
-            <div className="bg-gradient-card p-6 rounded-2xl shadow-gentle">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-accent/20 rounded-full">
-                  <Users className="w-6 h-6 text-accent" />
-                </div>
-                <h3 className="text-xl font-semibold text-foreground">You're Not Alone</h3>
-              </div>
-              <p className="text-muted-foreground">
-                Millions of women worldwide live fulfilling lives with PCOS through proper management and community support.
-              </p>
             </div>
           </div>
         </div>

@@ -35,11 +35,10 @@ const LifestyleSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Living Well with PCOS
+            Management & Lifestyle
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            These gentle, sustainable approaches can help you feel your best. 
-            Remember: small, consistent steps lead to meaningful changes.
+            These evidence-based approaches can help you manage PCOS symptoms and feel your best every day.
           </p>
         </div>
 

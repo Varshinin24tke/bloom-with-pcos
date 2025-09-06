@@ -8,20 +8,16 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold font-serif text-foreground mb-6 leading-tight">
-              You Are
-              <span className="block text-primary"> Stronger</span>
-              Than PCOS
+              Understanding PCOS
+              <span className="block text-primary"> Together</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-xl">
-              Join millions of women who are living full, empowered lives with PCOS. 
-              You're not alone in this journey, and you deserve all the support and understanding in the world.
+              PCOS affects millions of women worldwide, and understanding it is the first step toward feeling empowered. 
+              You're not alone in this journey, and knowledge is your greatest ally.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" className="bg-rose text-rose-foreground hover:bg-rose/90 shadow-gentle">
-                Learn About PCOS
-              </Button>
-              <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
-                Find Support
+              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-gentle">
+                Explore the Guide
               </Button>
             </div>
           </div>

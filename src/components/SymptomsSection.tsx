@@ -46,11 +46,10 @@ const SymptomsSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Common PCOS Symptoms
+            Symptoms & Types
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Remember, every woman's experience with PCOS is unique. You might have some, all, or different symptoms. 
-            What matters most is getting the support you need.
+            PCOS symptoms can vary greatly from woman to woman. Here are some common experiences that many women with PCOS share.
           </p>
         </div>
 

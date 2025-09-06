@@ -2,8 +2,8 @@ import HeroSection from "@/components/HeroSection";
 import PCOSExplanation from "@/components/PCOSExplanation";
 import SymptomsSection from "@/components/SymptomsSection";
 import LifestyleSection from "@/components/LifestyleSection";
-import MotivationalSection from "@/components/MotivationalSection";
-import CallToAction from "@/components/CallToAction";
+import InsightsSection from "@/components/InsightsSection";
+import VideoSection from "@/components/VideoSection";
 
 const Index = () => {
   return (
@@ -12,8 +12,8 @@ const Index = () => {
       <PCOSExplanation />
       <SymptomsSection />
       <LifestyleSection />
-      <MotivationalSection />
-      <CallToAction />
+      <InsightsSection />
+      <VideoSection />
     </main>
   );
 };
