@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* PCOS Support - Warm & Empowering Color Palette */
+    --background: 35 100% 98%;
+    --foreground: 340 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 340 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 340 15% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Soft lavender primary */
+    --primary: 270 50% 75%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Blush pink secondary */
+    --secondary: 350 100% 88%;
+    --secondary-foreground: 340 15% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Mint accent */
+    --accent: 150 40% 85%;
+    --accent-foreground: 340 15% 25%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Cream muted */
+    --muted: 45 60% 95%;
+    --muted-foreground: 340 10% 55%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Warm rose for CTAs */
+    --rose: 340 85% 75%;
+    --rose-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Soft mint for wellness */
+    --mint: 160 45% 80%;
+    --mint-foreground: 340 15% 25%;
 
-    --radius: 0.5rem;
+    /* Gentle borders */
+    --border: 320 30% 90%;
+    --input: 320 30% 92%;
+    --ring: 270 50% 75%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(270 50% 75%), hsl(350 100% 88%));
+    --gradient-section: linear-gradient(180deg, hsl(45 60% 98%), hsl(150 40% 96%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(270 30% 98%));
+
+    /* Shadows */
+    --shadow-gentle: 0 4px 20px hsl(270 50% 75% / 0.15);
+    --shadow-card: 0 8px 32px hsl(340 30% 80% / 0.12);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
