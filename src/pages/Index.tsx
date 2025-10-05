@@ -3,6 +3,7 @@ import PCOSExplanation from "@/components/PCOSExplanation";
 import SymptomsSection from "@/components/SymptomsSection";
 import LifestyleSection from "@/components/LifestyleSection";
 import InsightsSection from "@/components/InsightsSection";
+import MythVsFactSection from "@/components/MythVsFactSection";
 import VideoSection from "@/components/VideoSection";
 import LearnMoreSection from "@/components/LearnMoreSection";
 
@@ -14,6 +15,7 @@ const Index = () => {
       <SymptomsSection />
       <LifestyleSection />
       <InsightsSection />
+      <MythVsFactSection />
       <VideoSection />
       <LearnMoreSection />
     </main>
